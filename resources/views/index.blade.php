@@ -33,7 +33,7 @@
 
             function fetchStudents(){
                 $.ajax({
-                    url: "/api/students",
+                    url: "http://127.0.0.1:8000/api/getStudents",
                     type: "GET",
                     dataType: "JSON",
                     success: function(response){
